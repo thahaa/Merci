@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova";
+}
+
+body{
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+h1{
+   font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d9d9d9;
+}
+::-webkit-scrollbar-thumb{
+    background: #636363;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Proxima Nova";
+    zoom: 75%;
+}
+
+
+/* Navigation */
+.nav-container  {
+    background: #000000;
+    height: 74px;
+}
+
+.wrapper    {
+    max-width: 1345px;
+    margin: 0 auto;
+}   
+
+nav    {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    height: 74px;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-items-left li{
+    list-style: none;
+    margin-right:100px ;
+}
+
+.nav-items-right li{
+    list-style: none;
+    margin-right:100px ;
+}
+
+.nav-items-right li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items-right li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+.nav-items-left li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+
+.nav-items-right a:hover{
+    text-decoration: underline;
+}
+
+.nav-items-left a:hover{
+    text-decoration: underline;
+}
+
+
+/* Title */
+.promo{
+    margin-top: 50px;
+}
+
+.heading{
+    top: 20px;
+    left: 2%;
+}
+
+.heading h1{
+    font-size: 64px;
+}
+
+/* Products */
+
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 30px;
+}
+.product h2{
+    color: #000000;
+    margin-top: 15px;
+    font-size: 32px;
+}
+.product p{
+    color: #000000;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.single:nth-child(3n){
+    margin-right: 0px;
+}
+
+.single{
+    margin-right: 89px;
+    margin-bottom: 40px;
+}
+
+.hover-image{
+    position: relative;
+}
+
+.hover-image-image{
+    display: block;
+    width: 100%;
+}
+
+.hover-image-overlay p{
+    color: white;
+}
+
+.hover-image-overlay{
+    position: absolute;
+    transition: opacity 0.4s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.hover-image-overlay:hover{
+    opacity: 1;
+}
+
+.hover-image-overlay p{
+    transform: translateY(30px);
+    transition: transform 0.4s;
+}
+
+.hover-image-overlay:hover p{
+    transform: translateY(0);
+}
+
+
+/* footer */
+.footer{
+    align-items: center;
+}
+.footer-container  {
+    margin-top: 340px;
+    background: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 288px;
+}
+
+.row{
+    display: flex;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container p{
+    font-size: 22px;
+}
+
+.footer-container img{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.footer-container h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.column{
+    margin-right: 260px;
+}
+
+.column:nth-last-of-type(1){
+    margin: 0;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.col li a{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.col li a:hover{
+    text-decoration: underline;
+}

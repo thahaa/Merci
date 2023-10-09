@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova";
+}
+
+body{
+	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+h1{
+   font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d9d9d9;
+}
+::-webkit-scrollbar-thumb{
+    background: #636363;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Proxima Nova";
+    zoom: 75%;
+}
+
+
+/* Navigation */
+.nav-container  {
+    background: #000000;
+    height: 74px;
+}
+
+.wrapper    {
+    max-width: 1345px;
+    margin: 0 auto;
+}   
+
+nav    {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    height: 74px;
+}
+
+nav ul{
+    display: flex;
+}
+
+.nav-items-left li{
+    list-style: none;
+    margin-right:100px ;
+}
+
+.nav-items-right li{
+    list-style: none;
+    margin-right:100px ;
+}
+
+.nav-items-right li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items-right li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+.nav-items-left li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+
+.nav-items-right a:hover{
+    text-decoration: underline;
+}
+
+.nav-items-left a:hover{
+    text-decoration: underline;
+}
+
+/* Promo Banner */
+
+.promo{
+    position: relative;
+    top: 50px;
+}
+
+.heading-pict{
+    height: 656px;
+    overflow: hidden;
+}
+
+.heading-pict img{
+    transition: transform .5s ease;
+}
+
+.heading-pict img:hover{
+    transform: scale(1.05);
+}
+
+.heading{
+    position: absolute;
+    top: 20px;
+    left: 3%;
+}
+
+.heading h1{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.heading p{
+    margin-top: 7px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.heading button{
+    position: absolute;
+    top: 532px;
+}
+
+.btn-1{
+    width: 293px;
+    height: 70px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 37px;
+    transition: ease-out 0.3s;
+    font-size: 20px;
+    outline: none;
+}
+
+.btn-1:hover{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+/* Our Vehicle */
+
+.vehicles{
+    margin-top: 100px;
+}
+
+.vehicles h1{
+    font-size: 64px ;
+}
+
+.vehicles button{
+    margin-top: 22px;
+    transition: ease-out 0.3s;
+    width: 659px;
+    height: 480px;
+    background-color: #000000;
+    color: white;
+}
+
+.btn-saloons{
+    margin-right: 22px;
+}
+
+.btn-coupes{
+    margin-right: 22px;
+}
+
+.vehicles button h1{
+    text-align: left;
+    position: relative;
+    top: -180px;
+    left: 30px;
+    font-size: 36px;
+}
+
+.vehicles button p {
+    text-align: left;
+    position: relative;
+    font-size: 24px ;
+    top: 180px;
+    left: 30px;
+}
+
+.vehicles button img{
+    position: relative;
+    top: 157px;
+    left: -135px;
+}
+
+.vehicles button:hover{
+    cursor: pointer;
+}
+
+/* Featured Contents */
+
+.featured{
+    margin-top: 90px;
+}
+
+.featured h1{
+    font-size: 64px ;
+}
+
+/*Media Scroller*/
+
+.media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-element{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+
+.title{
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+    text-align: left;
+    font-size: 32px;
+}
+
+.description{
+    width: 413px;
+    line-height: 35px;
+    position: relative;
+    bottom: 240px;
+    left: 20px;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+
+.btn-featured{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 293px;
+    height: 52px;
+    background-color: #000000;
+    color: white;
+    border-radius: 37px;
+    position: relative;
+    display: block;
+    margin: auto;
+    bottom: 140px;
+    transition: ease-out 0.3s;
+}
+
+.btn-featured:hover{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* footer */
+.footer{
+    align-items: center;
+}
+.footer-container  {
+    margin-top: 140px;
+    background: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 288px;
+}
+
+.row{
+    display: flex;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container p{
+    font-size: 22px;
+}
+
+.footer-container img{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.footer-container h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.column{
+    margin-right: 260px;
+}
+
+.column:nth-last-of-type(1){
+    margin: 0;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.col li a{
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.col li a:hover{
+    text-decoration: underline;
+}
