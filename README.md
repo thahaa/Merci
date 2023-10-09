@@ -1,2 +1,2 @@
 # Merci
-Projek Website HTML with CSS and JS
+Website Project HTML with CSS and JS
